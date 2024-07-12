@@ -76,6 +76,9 @@
   button {
     @apply active:outline-none;
   }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold
+  }
 }
 
 @layer utilities {
@@ -85,5 +88,9 @@
 
   .black-gradient {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+  }
+  
+  .background-custom-gradient {
+    background: radial-gradient(black, transparent)
   }
 }

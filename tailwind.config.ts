@@ -25,6 +25,12 @@ const config = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      primary: "var(--font-jetbrainsMono)",
+    },
+    // backgroundColor: { 
+    //   background: 'radial-gradient(black, transparent)' 
+    // },
     extend: {
       screens: {
         '3xl': '2000px',
@@ -42,7 +48,11 @@ const config = {
           200: "#C1C2D3",
         },
         blue: {
-          "100": "#E4ECFF",
+          100: "#E4ECFF",
+        },
+        accent: {
+          DEFAULT: '#00FF99',
+          hover: '#00e187',
         },
         purple: "#CBACF9",
         border: "hsl(var(--border))",
@@ -66,10 +76,10 @@ const config = {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
         },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
+        // accent: {
+        //   DEFAULT: "hsl(var(--accent))",
+        //   foreground: "hsl(var(--accent-foreground))",
+        // },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",

@@ -29,7 +29,7 @@ const RecentProjects = () => {
               <div className='flex items-center justify-between mt-7 mb-3'>
                 <div className='flex items-center'>
                   {iconLists.map((icon, i)=> (
-                    <div className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center' 
+                    <div className='border border-green-900 rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center' 
                       key={icon}
                       style={{transform: `translateX(-${5 * i * 2}px)`}}
                     >
