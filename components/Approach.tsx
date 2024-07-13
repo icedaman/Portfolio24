@@ -15,9 +15,8 @@ export const Approach = () => {
           title="Planning & Strategy" 
           icon={<AceternityIcon 
           order={'Phase 1'} />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="First we'll discuss what are your website's goals, target audience, 
+          and key functionalities. Then we will talk about the structure for the website like the navigation and other content requirements."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,9 +27,7 @@ export const Approach = () => {
           title="Development & Progress Update" 
           icon={<AceternityIcon 
           order={'Phase 2'} />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="With the plan set in motion it's time for me to start building your website, I'll keep you updated every step of the way."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -46,9 +43,7 @@ export const Approach = () => {
           title="Development & Launch" 
           icon={<AceternityIcon 
           order={'Phase 3'} />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="After you approve the design I've built, it's time for me to add the functionality & features of the website. And as the final step, hosting it online, making it available worldwide."
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -83,20 +83,21 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+          <div className={`${id === 1 && 'max-w-[20vh]' } ${id === 3 && 'lg:text-lg xl:text-3xl' } font-sans font-bold text-lg lg:text-3xl max-w-96 z-10`}>
             {title}
           </div>
-          {id === 2 && <GlobeDemo />}
+          {id === 1 && <GlobeDemo />}
+
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              <div className="flex flex-col gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3">
                 {['React.js', 'Next.js', 'TypeScript', 'React Native'].map((item)=>(
-                  <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">{item}</span>
+                  <span key={item} className="px-2 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">{item}</span>
                 ))}
               </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
-                {['Node.js', 'MongoDB', 'PHP', 'Liquid'].map((item)=>(
-                  <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">{item}</span>
+              <div className="flex flex-col gap-3">
+                {['Node.js', 'MongoDB', 'PHP', 'JavaScript'].map((item)=>(
+                  <span key={item} className="px-2 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">{item}</span>
                 ))}
               </div>
             </div>
