@@ -76,7 +76,7 @@ export const projects = [
     des: "Search and find your favorite shoes & sports gear to add to your arsenal.",
     img: "/shoesinc-demo-thumbnail.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "http://localhost:5174/",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "A futuristic website with a fresh design featuring a modern layout with cool animations.",
     img: "/shockwave-demo-thumbnail.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "http://localhost:5174/",
   },
   {
     id: 3,
@@ -100,7 +100,7 @@ export const projects = [
     des: "The awesome Apple iPhone 15 Pro website recreated, showcasing the GSAP animations and Three.js 3D effects.",
     img: "/iphone-demo-thumbnail.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "http://localhost:5174/",
   },
 ];
 
