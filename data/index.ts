@@ -89,7 +89,7 @@ export const projects = [
   {
     id: 3,
     title: "Online Store Shopify Theme",
-    des: "Create & design your custom online shopify store.",
+    des: "Create & design your custom online shopify store.  Password: pass123",
     img: "/shopify-demo-thumbnail.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://1storedemo.myshopify.com/",
